@@ -1,2 +1,9 @@
 /tests/backups/
 /tests/test-log.txt
+javac.bat
+javadoc.bat
+javaw.bat
+jenv.bat
+jsehll.bat
+*~
+

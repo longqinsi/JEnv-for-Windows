@@ -1,0 +1,1 @@
+Invoke-Expression "${PSScriptRoot}/src/jenv.ps1 $args"
