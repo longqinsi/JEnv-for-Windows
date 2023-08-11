@@ -166,8 +166,8 @@ if (!($config | Get-Member global)) {
 #endregion
 
 #region Apply java_home for jenv local
-$localname = ($config.locals | Where-Object { $_.path -eq (Get-Location) }).name
-$javahome = ($config.jenvs | Where-Object { $_.name -eq $localname }).path
+$localname = ($config.locals | Where-Object { $_.path -eq (Get-Location) })?.name
+$javahome = ($config.jenvs | Where-Object { $_.name -eq $localname })?.path
 if ($null -eq $localname) {
     $javahome = $config.global
 }

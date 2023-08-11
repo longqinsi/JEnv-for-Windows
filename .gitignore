@@ -4,6 +4,5 @@ javac.bat
 javadoc.bat
 javaw.bat
 jenv.bat
-jsehll.bat
+jshell.bat
 *~
-
